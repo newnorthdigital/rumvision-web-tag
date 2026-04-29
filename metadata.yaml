@@ -1,5 +1,5 @@
 homepage: "https://www.rumvision.com"
 documentation: "https://github.com/newnorthdigital/rumvision-web-tag/blob/main/README.md"
 versions:
-  - sha: b9ac8602b4dbceabda7290d36d8b477bb369127f
+  - sha: 0ef3ec5790def4c1e441752116d98729cf404e9c
     changeNotes: "Initial release - RUMvision snippet loader with GTM Consent Mode v2 support."
