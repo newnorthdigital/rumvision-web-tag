@@ -133,6 +133,7 @@ const addConsentListener = require('addConsentListener');
 const isConsentGranted = require('isConsentGranted');
 const getUrl = require('getUrl');
 const makeString = require('makeString');
+const encodeUri = require('encodeUri');
 
 const enableDebug = data.debug;
 const debugLog = function(msg) {
@@ -141,7 +142,7 @@ const debugLog = function(msg) {
 
 const propertyId = makeString(data.propertyId);
 const hostname = data.hostnameOverride ? makeString(data.hostnameOverride) : getUrl('host');
-const scriptUrl = 'https://d5yoctgpv4cpx.cloudfront.net/' + propertyId + '/v3-' + hostname + '.js';
+const scriptUrl = 'https://d5yoctgpv4cpx.cloudfront.net/' + encodeUri(propertyId) + '/v3-' + encodeUri(hostname) + '.js';
 
 // Initialise the rumv() command queue. Subsequent calls before the script
 // loads are buffered into window.rumv.q and replayed once the script is ready.
