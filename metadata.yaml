@@ -1,5 +1,7 @@
 homepage: "https://www.rumvision.com"
 documentation: "https://github.com/newnorthdigital/rumvision-web-tag/blob/main/README.md"
 versions:
+  - sha: f8159b38b333efe39603a0c7643aff003fef5fc1
+    changeNotes: "Wrap user-supplied URL segments with encodeUri() per Gallery reviewer feedback."
   - sha: 0ef3ec5790def4c1e441752116d98729cf404e9c
     changeNotes: "Initial release - RUMvision snippet loader with GTM Consent Mode v2 support."
