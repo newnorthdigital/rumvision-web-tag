@@ -70,7 +70,7 @@ That's it. The tag will:
 
 ## Author
 
-Created by [New North Digital](https://newnorth.digital?utm_source=github&utm_medium=gtm-template&utm_campaign=rumvision-web-tag).
+Created and maintained by [Freek Kampen](https://freekkampen.com) at [New North Digital](https://newnorth.digital?utm_source=github&utm_medium=gtm-template&utm_campaign=rumvision-web-tag).
 
 ## License
 
