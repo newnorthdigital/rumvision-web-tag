@@ -21,7 +21,7 @@ ___INFO___
   "brand": {
     "id": "brand_dummy",
     "displayName": "New North Digital",
-    "thumbnail": "data:image/png;base64,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",
+    "thumbnail": "data:image/png;base64,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\u003d\u003d",
     "thumbnailUrl": "https://www.rumvision.com/file/img/icon/apple-touch-icon.png"
   },
   "description": "Loads RUMvision Real User Monitoring to capture Core Web Vitals. Follows GTM Consent Mode (analytics_storage) and can send custom dimensions.",
@@ -157,7 +157,7 @@ ___TEMPLATE_PARAMETERS___
         "name": "debug",
         "checkboxText": "Log debug messages to console",
         "simpleValueType": true,
-        "help": "Logs what the tag does in GTM Preview. For RUMvision\u0027s own debug output, add ?rumv=debug to the page URL."
+        "help": "Logs what the tag does in GTM Preview. For RUMvision\u0027s own debug output, add ?rumv\u003ddebug to the page URL."
       }
     ]
   }
@@ -502,7 +502,11 @@ scenarios:
 
     mock('getUrl', function(part) { return 'example.com'; });
     mock('isConsentGranted', function(t) { return true; });
+    let injectedUrl;
+    let injectedToken;
     mock('injectScript', function(url, onSuccess, onFailure, cacheToken) {
+      injectedUrl = url;
+      injectedToken = cacheToken;
       onSuccess();
     });
 
@@ -510,12 +514,8 @@ scenarios:
 
     assertApi('createArgumentsQueue').wasCalledWith('rumv', 'rumv.q');
     assertApi('callInWindow').wasCalledWith('rumv', 'config', { consent_storage: 1, consent_device: 1 });
-    assertApi('injectScript').wasCalledWith(
-      'https://d5yoctgpv4cpx.cloudfront.net/RUM-OD60Q204MQ/v3-example.com.js',
-      org.mockito.Matchers.any(),
-      org.mockito.Matchers.any(),
-      'rumvision-RUM-OD60Q204MQ'
-    );
+    assertThat(injectedUrl).isEqualTo('https://d5yoctgpv4cpx.cloudfront.net/RUM-OD60Q204MQ/v3-example.com.js');
+    assertThat(injectedToken).isEqualTo('rumvision-RUM-OD60Q204MQ');
     assertApi('gtmOnSuccess').wasCalled();
 - name: Auto consent loads cookieless and listens when analytics_storage is denied
   code: |-
@@ -529,6 +529,8 @@ scenarios:
     mock('callInWindow', function(fn, a, b) { commands.push([a, b]); });
     mock('getUrl', function(part) { return 'shop.example.com'; });
     mock('isConsentGranted', function(t) { return false; });
+    let listenedType;
+    mock('addConsentListener', function(type, callback) { listenedType = type; });
     let configBeforeInject;
     mock('injectScript', function(url, onSuccess, onFailure, cacheToken) {
       configBeforeInject = commands[commands.length - 1];
@@ -538,10 +540,7 @@ scenarios:
     runCode(mockData);
 
     assertThat(configBeforeInject).isEqualTo(['config', { consent_storage: 0, consent_device: 0 }]);
-    assertApi('addConsentListener').wasCalledWith(
-      'analytics_storage',
-      org.mockito.Matchers.any()
-    );
+    assertThat(listenedType).isEqualTo('analytics_storage');
     assertApi('gtmOnSuccess').wasCalled();
 - name: Always-allow consent mode skips listener
   code: |-
@@ -570,18 +569,18 @@ scenarios:
     };
 
     mock('getUrl', function(part) { return 'sub.example.com'; });
+    let injectedUrl;
+    let injectedToken;
     mock('injectScript', function(url, onSuccess, onFailure, cacheToken) {
+      injectedUrl = url;
+      injectedToken = cacheToken;
       onSuccess();
     });
 
     runCode(mockData);
 
-    assertApi('injectScript').wasCalledWith(
-      'https://d5yoctgpv4cpx.cloudfront.net/RUM-ABCDEFGHIJ/v3-apex.example.com.js',
-      org.mockito.Matchers.any(),
-      org.mockito.Matchers.any(),
-      'rumvision-RUM-ABCDEFGHIJ'
-    );
+    assertThat(injectedUrl).isEqualTo('https://d5yoctgpv4cpx.cloudfront.net/RUM-ABCDEFGHIJ/v3-apex.example.com.js');
+    assertThat(injectedToken).isEqualTo('rumvision-RUM-ABCDEFGHIJ');
     assertApi('gtmOnSuccess').wasCalled();
 - name: Script load failure calls gtmOnFailure
   code: |-
@@ -606,15 +605,14 @@ scenarios:
     };
 
     mock('isConsentGranted', function(t) { return false; });
+    let listenedType;
+    mock('addConsentListener', function(type, callback) { listenedType = type; });
 
     runCode(mockData);
 
     assertApi('injectScript').wasNotCalled();
     assertApi('gtmOnSuccess').wasNotCalled();
-    assertApi('addConsentListener').wasCalledWith(
-      'analytics_storage',
-      org.mockito.Matchers.any()
-    );
+    assertThat(listenedType).isEqualTo('analytics_storage');
 - name: Wait mode loads once when consent is granted later
   code: |-
     const mockData = {
