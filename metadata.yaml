@@ -1,6 +1,8 @@
 homepage: "https://www.rumvision.com"
 documentation: "https://github.com/newnorthdigital/rumvision-web-tag/blob/main/README.md"
 versions:
+  - sha: 66f239325d642cf31a8fd0ee0efaa7c13e903d95
+    changeNotes: "Removed the Disable automatic data submission option. RUMvision has no such setting, so it had no effect."
   - sha: 63e4e9dcaaef6cccec64b43c6e00a12a2916f384
     changeNotes: "Default consent behaviour now waits for analytics_storage before loading RUMvision; existing tags keep their saved setting. Consent withdrawal switches storage and device info off. New custom dimensions table. Tests fixed for the GTM test runner."
   - sha: 6b4d47bfa9db6445d5baa2e61f72e186c1f1d0f2
