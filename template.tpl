@@ -136,13 +136,6 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "Hostname override",
         "simpleValueType": true,
         "help": "Optional. Forces the script URL to use this hostname instead of the page\u0027s hostname. Useful when monitoring a subdomain under the apex property. Leave empty to use the current page\u0027s hostname."
-      },
-      {
-        "type": "CHECKBOX",
-        "name": "disableAuto",
-        "checkboxText": "Disable automatic data submission",
-        "simpleValueType": true,
-        "help": "Sets \u0027auto: false\u0027 on RUMvision. Use this if you want to call rumv(\u0027send\u0027) yourself from a separate tag."
       }
     ]
   },
@@ -195,12 +188,6 @@ createArgumentsQueue('rumv', 'rumv.q');
 const rumv = function(command, arg) {
   callInWindow('rumv', command, arg);
 };
-
-// Optional: disable automatic submission so it can be triggered manually.
-if (data.disableAuto) {
-  rumv('config', { auto: false });
-  debugLog('auto submit disabled');
-}
 
 // Custom dimensions, sent with the current pageview.
 const dimensions = {};

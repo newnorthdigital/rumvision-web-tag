@@ -48,7 +48,6 @@ The *cookieless until consent* and *never allow storage* options and custom dime
 | Consent behaviour | Yes | See below. Default: *Wait for analytics_storage consent* |
 | Custom dimensions | No | Table of dimension name and value, sent with `rumv('set')`. The name must match a custom dimension in RUMvision. Empty values are skipped |
 | Hostname override | No | Load the script for this hostname instead of the current page's hostname |
-| Disable automatic data submission | No | Sets RUMvision's `auto: false` config |
 | Log debug messages to console | No | Console logging in Preview mode. For RUMvision's own debug output, add `?rumv=debug` to the page URL |
 
 ### Consent behaviours
